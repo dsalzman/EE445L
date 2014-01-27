@@ -1,0 +1,26 @@
+Dependencies for Project 'OLED', Target 'lab1_oled': (DO NOT MODIFY !)
+F (.\rit128x96x4.c)(0x51006229)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-o .\rit128x96x4.o --omf_browse .\rit128x96x4.crf --depend .\rit128x96x4.d)
+I (..\inc/hw_ssi.h)(0x52DEC1EB)
+I (..\inc/hw_memmap.h)(0x52DEC1EB)
+I (..\inc/hw_sysctl.h)(0x52DEC1EB)
+I (..\inc/hw_types.h)(0x52DEC1EB)
+I (..\driverlib/debug.h)(0x52DEC1E8)
+I (..\driverlib/gpio.h)(0x52DEC1E9)
+I (..\driverlib/ssi.h)(0x52DEC1EA)
+I (..\driverlib/sysctl.h)(0x52DEC1EA)
+I (rit128x96x4.h)(0x51006229)
+F (.\Startup.s)(0x51006229)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\fixed.c)(0x52E5D25F)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-o .\fixed.o --omf_browse .\fixed.crf --depend .\fixed.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C86E14)
+I (fixed.h)(0x51127FF0)
+F (.\Lab1.c)(0x52E5DBD7)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-o .\lab1.o --omf_browse .\lab1.crf --depend .\lab1.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C86E14)
+I (fixed.h)(0x51127FF0)
+I (Output.h)(0x52E5D885)
+F (.\fixed.h)(0x51127FF0)()
+F (.\Output.c)(0x52E5D885)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-o .\output.o --omf_browse .\output.crf --depend .\output.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C86E14)
+I (rit128x96x4.h)(0x51006229)
+I (Output.h)(0x52E5D885)
+F (.\Output.h)(0x52E5D885)()
+F (..\driverlib\rvmdk\driverlib.lib)(0x52DEC1EA)()
